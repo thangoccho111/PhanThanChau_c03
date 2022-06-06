@@ -33,7 +33,10 @@ else console.log("Tổng tiền phải trả là:", KW * 3500);
 
 //Bài tập 5
 let KyTu = prompt("Nhập một ký tự:");
-if (Number(KyTu) === Number) console.log("Số");
+if (KyTu) console.log("Số");
+else if (KyTu) console.log("Ký tự đặt biệt");
+else if (KyTu) console.log("Ký tự chữ Hoa");
+else console.log("Ký tự chữ thường");
 
 //Bài tập 6
 let a6 = Number(prompt("Nhập số a:"));
